@@ -1,5 +1,6 @@
 package com.raywenderlich.android.lab1.app
 
+import ScrollingScreen
 import androidx.compose.animation.Crossfade
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -19,6 +20,7 @@ fun FundamentalsApp() {
                 is Screen.Buttons -> ExploreButtonsScreen()
                 is Screen.ProgressIndicator -> ProgressIndicatorScreen()
                 is Screen.AlertDialog -> AlertDialogScreen()
+                is Screen.Scrolling -> ScrollingScreen()
             }
         }
     }
