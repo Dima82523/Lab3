@@ -17,6 +17,7 @@ sealed class Screen {
     object ProgressIndicator : Screen()
     object Scrolling : Screen()
     object List : Screen()
+    object Grid : Screen()
 
 }
 

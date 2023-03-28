@@ -1,5 +1,7 @@
 package com.raywenderlich.android.lab1.app
 
+import GridScreen
+import ListScreen
 import ScrollingScreen
 import androidx.compose.animation.Crossfade
 import androidx.compose.material.MaterialTheme
@@ -22,6 +24,7 @@ fun FundamentalsApp() {
                 is Screen.AlertDialog -> AlertDialogScreen()
                 is Screen.Scrolling -> ScrollingScreen()
                 is Screen.List -> ListScreen()
+                is Screen.Grid -> GridScreen()
 
             }
         }
