@@ -21,6 +21,7 @@ fun FundamentalsApp() {
                 is Screen.ProgressIndicator -> ProgressIndicatorScreen()
                 is Screen.AlertDialog -> AlertDialogScreen()
                 is Screen.Scrolling -> ScrollingScreen()
+                is Screen.List -> ListScreen()
 
             }
         }
