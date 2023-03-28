@@ -15,5 +15,6 @@
     <string name="ys">Усовершенствованная архитектура Android</string>
     <string name="kt">Изучение Kotlin</string>
     <string name="kt1">Корутины в Kotlin</string>
+    <string name="ob">Обложки книг</string>
 
 </resources>
